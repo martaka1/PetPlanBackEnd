@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "NkHHhPv0YO6ydrpox4e5sHO6Gisfp6D5rJQzOxJVKqUroRFFcfQdTGn7JK01aoXftJHAKPmJKU159CbB6tABGw==",
+  "success": true,
+  "projectFilePath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Helpers/Helpers.csproj",
+  "expectedPackageFiles": [
+    "/Users/martakask/.nuget/packages/microsoft.identitymodel.abstractions/7.5.1/microsoft.identitymodel.abstractions.7.5.1.nupkg.sha512",
+    "/Users/martakask/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.5.1/microsoft.identitymodel.jsonwebtokens.7.5.1.nupkg.sha512",
+    "/Users/martakask/.nuget/packages/microsoft.identitymodel.logging/7.5.1/microsoft.identitymodel.logging.7.5.1.nupkg.sha512",
+    "/Users/martakask/.nuget/packages/microsoft.identitymodel.tokens/7.5.1/microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
+    "/Users/martakask/.nuget/packages/system.identitymodel.tokens.jwt/7.5.1/system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

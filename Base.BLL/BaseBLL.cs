@@ -1,0 +1,19 @@
+using Base.Contracts.BLL;
+using Base.Contracts.DAL;
+
+namespace Base.BLL;
+
+public abstract class BaseBLL<TAppDbContext> : IBLL
+{
+    protected readonly IUnitOfWork UoW;
+
+    protected BaseBLL(IUnitOfWork uoW)
+    {
+        UoW = uoW;
+    }
+
+    public async Task<int> SaveChangesAsync()
+    {
+        return await UoW.SaveChangesAsync();
+    }
+}

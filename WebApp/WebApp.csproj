@@ -1,0 +1,97 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-WebApp-54FBA25B-EDEE-43A8-8462-BDABCD789F70</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+        <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+        <PackageReference Include="Moq" Version="4.20.70" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
+        <PackageReference Include="NSubstitute" Version="5.1.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\App.BLL.DTO\App.BLL.DTO.csproj" />
+      <ProjectReference Include="..\App.BLL\App.BLL.csproj" />
+      <ProjectReference Include="..\App.Contracts.BLL\App.Contracts.BLL.csproj" />
+      <ProjectReference Include="..\App.DAL.EF\App.DAL.EF.csproj" />
+      <ProjectReference Include="..\App.DTO\App.DTO.csproj" />
+      <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Appointment\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Appointment\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Appointment\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Appointment\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Appointment\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogPost\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogPost\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogPost\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogPost\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogPost\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogTag\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogTag\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogTag\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogTag\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BlogTag\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Excercise\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Excercise\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Excercise\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Excercise\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Excercise\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HealthRecord\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HealthRecord\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HealthRecord\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HealthRecord\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HealthRecord\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HomeTraining\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HomeTraining\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HomeTraining\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HomeTraining\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\HomeTraining\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Pet\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Pet\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Pet\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Pet\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Pet\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\PostTags\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\PostTags\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\PostTags\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\PostTags\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\PostTags\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VeterinaryPractice\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VeterinaryPractice\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VeterinaryPractice\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VeterinaryPractice\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VeterinaryPractice\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contests\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contests\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contests\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contests\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contests\Index.cshtml" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+</Project>

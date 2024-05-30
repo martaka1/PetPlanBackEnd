@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Test/Base.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/Base.Contracts.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/Base.Contracts.DAL.csproj",
+        "projectName": "Base.Contracts.DAL",
+        "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/Base.Contracts.DAL.csproj",
+        "packagesPath": "/Users/martakask/.nuget/packages/",
+        "outputPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martakask/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj",
+        "projectName": "Base.Contracts.Domain",
+        "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj",
+        "packagesPath": "/Users/martakask/.nuget/packages/",
+        "outputPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martakask/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/Base.DAL.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/Base.DAL.EF.csproj",
+        "projectName": "Base.DAL.EF",
+        "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/Base.DAL.EF.csproj",
+        "packagesPath": "/Users/martakask/.nuget/packages/",
+        "outputPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martakask/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/Base.Contracts.DAL.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.DAL/Base.Contracts.DAL.csproj"
+              },
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj"
+              },
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/Base.Domain.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/Base.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/Base.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/Base.Domain.csproj",
+        "projectName": "Base.Domain",
+        "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/Base.Domain.csproj",
+        "packagesPath": "/Users/martakask/.nuget/packages/",
+        "outputPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martakask/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Contracts.Domain/Base.Contracts.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Test/Base.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Test/Base.Test.csproj",
+        "projectName": "Base.Test",
+        "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Test/Base.Test.csproj",
+        "packagesPath": "/Users/martakask/.nuget/packages/",
+        "outputPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martakask/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/Base.DAL.EF.csproj": {
+                "projectPath": "/Users/martakask/Downloads/icd0024-23-24-s-main 2/PetPlan/Base.DAL.EF/Base.DAL.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
