@@ -64,7 +64,7 @@ FROM --platform=linux/amd64 mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 EXPOSE 80
 EXPOSE 8080
-ENV ConnectionStrings:SQLServerConnection="Host=windowspet.postgres.database.azure.com;Port=7890;Username=postgreas;Password=Kala.maja1;Database=petplan;MultipleActiveResultSets=true;"
+ENV ConnectionStrings:SQLServerConnection="$connectionString"
 ENV ASPNETCORE_URLS=http://+:80
 ENV ASPNETCORE_ENVIRONMENT=Development
 COPY --from=build app/WebApp/out ./
